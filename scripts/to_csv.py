@@ -23,6 +23,9 @@ output_file_path = r"\\MYCLOUDPR4100\Public\intel_comments.csv"
 # if you want a custom set of fields, put them in the following list. If you leave it empty the script will use a default set of fields
 fields = []
 
+
+
+
 log = logging.getLogger("bot")
 log.setLevel(logging.DEBUG)
 log.addHandler(logging.StreamHandler())
